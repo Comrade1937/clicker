@@ -1,0 +1,17 @@
+Vi2 save clicker is intended as a helper tool for mod development and debug. Create save files hands free to check progression of the game in as close of an “observer” mode as possible. Assumptions are that you know yourself around game files structure thus some explanations are skipped.
+
+How to use – step by step: 
+1. Change game settings to 1366x768 and WINDOWED mode !
+2. Clear ALL game saves for recommended country ( Bhutan or Sikkim) or at least clear ALL save files  with date after the save you have loaded in. ( to avoid “do you want to overwrite” save file message menu – No protection against it in the script for the moment !!!!)
+3. go to console mode and  run “debug assert” exit console mode
+4. change game speed ( without starting time )  
+5. start the script with wanted option:
+	a)  yearly  – saves on January 2nd ( Irrespective of your start date first save date is jan2, same holds for all other options ) 
+	b) hyearly  - saves on January 2nd , July 2nd 
+	c) qrly – saves on January 2nd , April 2nd , July 2nd , October 2nd
+	d) monthly – saves on 2nd of each month after starting date
+	
+6. start (unpause) the game and don’t’ touch anything anymore 
+7. press “q” on keyboard to end the script
+
+
